@@ -1,0 +1,13 @@
+.link {
+  color: #00aaef;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
+  .link:hover {
+    color: #2f80ed; }
+  .link__phone {
+    color: white; }
+    .link__phone:hover {
+      color: #d5c5aa; }
+
+/*# sourceMappingURL=link.css.map */
