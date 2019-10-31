@@ -54,7 +54,7 @@ textarea:focus {
      object-fit: cover; }
 
 .header {
-  height: 765px;
+  height: 100vh;
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-position: center;
@@ -74,19 +74,22 @@ textarea:focus {
     display: -ms-flexbox;
     display: flex;
     color: white; }
-  .header__phone {
-    margin: 0 82px; }
-  .header__phone, .header__action {
-    position: relative;
-    top: 47px; }
   .header__link {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    border-bottom: 1px dashed;
     color: white;
-    border: 1px dashed;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     text-transform: uppercase; }
     .header__link:hover {
       color: #d5c5aa; }
+  .header__phone {
+    margin: 0 82px; }
+  .header__phone, .header__action {
+    position: relative;
+    top: 47px; }
 
 @media screen and (max-width: 999px) {
   .header__top {
@@ -211,7 +214,8 @@ textarea:focus {
     height: 13px; }
 
 .gallery__caption {
-  margin: 12px 0 35px; }
+  margin: 12px 0 35px;
+  font-weight: 400; }
 
 .gallery__button {
   margin-top: 44px;

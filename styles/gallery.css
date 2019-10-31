@@ -1,5 +1,6 @@
 .gallery__caption {
-  margin: 12px 0 35px; }
+  margin: 12px 0 35px;
+  font-weight: 400; }
 
 .gallery__button {
   margin-top: 44px;
